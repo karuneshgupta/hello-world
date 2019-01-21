@@ -1,6 +1,6 @@
 import random
-player1wins=0
-player2wins=0
+# player1wins=0
+# player2wins=0
 
 def main():
     player1=0
@@ -27,12 +27,12 @@ def main():
             print("player1 wins the round")
 
         rounds=rounds+1    
-if player1wins==player2wins:
-        print("all rounds have been drawn")
-elif player1wins>player2wins:
-        print("player 1 wins and the round wons are " +str(player1wins))
-else:
-        print("player 2 wins and the round wons are " +str(player2wins))
+        if player1wins==player2wins:
+                print("all rounds have been drawn")
+        elif player1wins>player2wins:
+                print("player 1 wins and the round wons are " +str(player1wins))
+        else:
+                print("player 2 wins and the round wons are " +str(player2wins))
 
             
 
